@@ -77,4 +77,13 @@ video {
   background-color: var(--pink);
 }
 
+.wrapper-two-properties .item {
+  transition: color 0.5s 0.1s ease-in, background-color 0.5s 0.1s ease-in;
+}
+
+.wrapper-two-properties .item:hover {
+  color: var(--black);
+  background-color: var(--pink);
+}
+
 // ---------------------------------------------
