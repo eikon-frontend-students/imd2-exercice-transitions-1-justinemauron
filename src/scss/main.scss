@@ -103,4 +103,24 @@ video {
   background-color: var(--pink);
 }
 
+.wrapper-parent-delay .item {
+  transition: background-color 1s ease-out;
+}
+
+.wrapper-parent-delay .item:nth-child(1) {
+  transition: background-color 1s 0.3s ease-out;
+}
+
+.wrapper-parent-delay .item:nth-child(2) {
+  transition: background-color 1s 0.6s ease-out;
+}
+
+.wrapper-parent-delay .item:nth-child(3) {
+  transition: background-color 1s 0.9s ease-out;
+}
+
+.wrapper-parent-delay:hover .item {
+  background-color: var(--pink);
+}
+
 // ---------------------------------------------
