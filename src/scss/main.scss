@@ -154,4 +154,12 @@ video {
 .wrapper-parent-children-delay:hover .item {
   background-color: var(--pink);
 }
+
+.wrapper-translate .item {
+  transition: transform 0.5s 0.3s ease-out;
+}
+
+.wrapper-translate .item:hover {
+  transform: translateY(40px);
+}
 // ---------------------------------------------
