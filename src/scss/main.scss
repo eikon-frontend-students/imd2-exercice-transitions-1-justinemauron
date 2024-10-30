@@ -95,4 +95,12 @@ video {
   background-color: var(--pink);
 }
 
+.wrapper-parent .item {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.wrapper-parent:hover .item {
+  background-color: var(--pink);
+}
+
 // ---------------------------------------------
