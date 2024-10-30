@@ -162,4 +162,12 @@ video {
 .wrapper-translate .item:hover {
   transform: translateY(40px);
 }
+
+.wrapper-rotate .item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.wrapper-rotate .item:hover {
+  transform: rotate(90deg);
+}
 // ---------------------------------------------
