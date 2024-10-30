@@ -61,4 +61,12 @@ video {
   background-color: #f72585;
 }
 
+.wrapper-transition .item {
+  transition: background-color 0.5s 0.2s ease-in-out;
+}
+
+.wrapper-transition .item:hover {
+  background-color: #f72585;
+}
+
 // ---------------------------------------------
