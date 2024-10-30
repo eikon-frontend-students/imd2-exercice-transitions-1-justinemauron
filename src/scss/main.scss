@@ -108,19 +108,34 @@ video {
 }
 
 .wrapper-parent-delay .item:nth-child(1) {
-  transition: background-color 1s 0.3s ease-out;
+  transition-delay: 0.3s;
 }
 
 .wrapper-parent-delay .item:nth-child(2) {
-  transition: background-color 1s 0.6s ease-out;
+  transition-delay: 0.6s;
 }
 
 .wrapper-parent-delay .item:nth-child(3) {
-  transition: background-color 1s 0.9s ease-out;
+  transition-delay: 0.9s;
 }
 
 .wrapper-parent-delay:hover .item {
   background-color: var(--pink);
 }
 
+.wrapper-parent-children .item {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.wrapper-parent-children:hover .item {
+  background-color: var(--pink);
+}
+
+.wrapper-parent-children {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.wrapper-parent-children:hover {
+  background-color: var(--blue);
+}
 // ---------------------------------------------
