@@ -170,4 +170,13 @@ video {
 .wrapper-rotate .item:hover {
   transform: rotate(90deg);
 }
+
+.wrapper-scale .item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.wrapper-scale .item:hover {
+  transform: scale(1.2);
+}
+
 // ---------------------------------------------
